@@ -8,6 +8,10 @@
   <name>fancyclock webapp</name>
   <url>http://maven.apache.org</url>
   
+  <properties>
+	<jarversion>1.0-8</jarversion>
+  </properties>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -45,19 +49,7 @@
                   <artifactId>maven-jetty-plugin</artifactId>
              </plugin>
              
-       <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>properties-maven-plugin</artifactId>
-            <version>1.0-alpha-2</version>
-           <configuration>
-                        <files>
-                            <file>build.properties</file>
-                        </files>
-                    </configuration>
-           </plugin>
-
-
-         </plugins>
+       </plugins>
   </build>
    
 </project>
