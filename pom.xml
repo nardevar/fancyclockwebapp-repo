@@ -21,8 +21,8 @@
 	<dependency>
         <groupId>com.ibm.fancyclock</groupId>
         <artifactId>fancyclock_logic</artifactId>
-        <version>1.0-${env.GO_PIPELINE_COUNTER}</version>
-       <!-- <version>${jarversion}</version>-->
+        <!--<version>1.0-${env.GO_PIPELINE_COUNTER}</version>-->
+        <version>${jarversion}</version>
         </dependency>
 	   
   </dependencies>
@@ -52,7 +52,7 @@
         <executions>
            <!-- Associate the read-project-properties goal with the initialize phase, to read the properties file. -->
           <execution>
-            <phase>initialize</phase>
+            <phase>pre-clean</phase>
             <goals>
               <goal>read-project-properties</goal>
             </goals>
