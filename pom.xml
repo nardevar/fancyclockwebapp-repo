@@ -37,7 +37,7 @@
   
   <build>
     
-      <finalName>/fancyclock</finalName>
+      <finalName>fancyclock</finalName>
        <!--Jetty Plugin-->
 	<plugins>
              <plugin>
