@@ -37,6 +37,7 @@
   
   <build>
     
+      <finalName>/fancyclock</finalName>
        <!--Jetty Plugin-->
 	<plugins>
              <plugin>
@@ -44,7 +45,7 @@
                   <artifactId>maven-jetty-plugin</artifactId>
              </plugin>
              
-        <plugin>
+        <!--<plugin>
         
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
@@ -53,9 +54,9 @@
          <warName>fancyclock</warName>
          <contextRoot>/fancyclock</contextRoot>
 
-          <!--<webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>-->
+          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
         </configuration>
-      </plugin>
+      </plugin>-->
       
              
        </plugins>
