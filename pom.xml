@@ -36,8 +36,7 @@
   </distributionManagement>
   
   <build>
-    <finalName>fancyclock_webapp</finalName>
-	
+    
        <!--Jetty Plugin-->
 	<plugins>
              <plugin>
