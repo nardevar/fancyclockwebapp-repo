@@ -4,4 +4,10 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+   <context-param>
+    <param-name>context-root</param-name>
+    <param-value>fancyclock</param-value>
+  </context-param>
+  
 </web-app>
