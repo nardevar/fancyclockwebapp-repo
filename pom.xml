@@ -51,6 +51,7 @@
         <version>2.4</version>
         <configuration>
          <warName>fancyclock</warName>
+         <contextRoot>/fancyclock</contextRoot>
 
           <!--<webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>-->
         </configuration>
