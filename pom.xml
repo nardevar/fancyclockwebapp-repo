@@ -8,7 +8,7 @@
   <name>fancyclock webapp</name>
   <url>http://maven.apache.org</url>
   
-  <maven.war.final.name>fancyclock</maven.war.final.name>
+  <!--<maven.war.final.name>fancyclock</maven.war.final.name>-->
     <dependencies>
     <dependency>
       <groupId>junit</groupId>
