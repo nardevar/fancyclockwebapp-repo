@@ -38,7 +38,19 @@
   <build>
     <finalName>fancyclock_webapp</finalName>
 	
-	<!--Jetty Plugin-->
+	<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+         <warName>fancyclock</warName>
+
+          <!--<webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>-->
+        </configuration>
+      </plugin>
+
+       
+       <!--Jetty Plugin-->
 	<plugins>
              <plugin>
                   <groupId>org.mortbay.jetty</groupId>
