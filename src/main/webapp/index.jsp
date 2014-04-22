@@ -5,5 +5,6 @@
  <%= com.ibm.fancyclock.App.now() %>
  <br>
  <h2>This App built with Go-Maven</h2>
+ <h2>Deloyed by uDeploy</h2>
  </body>
 </html>
